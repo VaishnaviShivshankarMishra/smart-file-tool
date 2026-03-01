@@ -1,25 +1,44 @@
-# 📦 Smart File Tool
+# 🚀 Smart File Tool
 
-Smart File Tool is a Streamlit-based web application that allows users to compress, convert, and analyze files easily.
+A web-based Smart File Compression and Deduplication Tool built using **Python** and **Streamlit**.
 
-## 🚀 Features
+This application allows users to compress files, detect duplicates, and convert image formats through an interactive web interface.
 
-- 📷 Image Compression (JPG, PNG)
-- 🔄 Image Format Conversion (PNG, JPEG, WEBP)
-- 📊 CSV File Optimization
-- 📄 PDF Page Selection
-- 📦 Automatic ZIP Compression for other files
-- 📈 Compression Analysis with Graphs
+---
 
-## 🛠 Built With
+## 🌐 Live Demo
+
+👉 https://smart-file-tool.streamlit.app
+
+---
+
+## 📌 Features
+
+- 📁 ZIP File Compression
+- 🖼 Image Compression
+- 📄 PDF Compression
+- 📊 CSV File Compression
+- 🔁 Duplicate File Detection
+- 🔄 Image Format Conversion
+- 🌍 Web-based UI using Streamlit
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Streamlit
 - Pandas
 - Pillow
 - PyPDF2
-- Matplotlib
+- OS Module
 
-## 🌐 Live App
+---
 
-(Will add Streamlit link here after deployment)
+## ⚙ Installation (Run Locally)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/VaishnaviShivshankarMishra/smart-file-tool.git
+cd smart-file-tool
